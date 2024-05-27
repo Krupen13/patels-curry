@@ -1,0 +1,270 @@
+.body {
+  display:grid;
+  justify-content: start;
+  align-items: start;
+}
+
+.container{
+  width: 300px;
+  height: 250px;
+  margin-right: 30%;
+  margin-left: 10%;
+  perspective: 500px;
+  
+}
+.cater{
+  transition: transform 1500ms;
+  transition-delay: 2s;
+}
+.card {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+
+
+.front {
+  background-image: url("../assets/icecream.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+
+
+.frontptd{
+  background-image: url("../assets/Paatodi.png");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontdkl{
+  background-image: url("../assets/Dhokla.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontpp{
+  background-image: url("../assets/PaaniPuri.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontptan{
+  background-image: url("../assets/PaneerTandoori.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontdosa{
+  background-image: url("../assets/dosa.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontidli{
+  background-image: url("../assets/Idlivada.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontbf{
+  background-image: url("../assets/BhindiFry.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontkbir{
+  background-image: url("../assets/Biryani.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontppr{
+  background-image: url("../assets/PaneerPasandaRice.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontpalpan{
+  background-image: url("../assets/PaalakPaneer.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontpanang{
+  background-image: url("../assets/PaneerAngara.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontpankad{
+  background-image: url("../assets/PaneerKadhai.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontpanlav{
+  background-image: url("../assets/PaneerLababdar.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontptm{
+  background-image: url("../assets/PaneerTikkaMasaala.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.front56{
+  background-image: url("../assets/Thali.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+
+
+.frontmanlas{
+  background-image: url("../assets/MangoLassi.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+
+
+.frontnim{
+  background-image: url("../assets/NimbuPaani.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+
+
+.frontchai{
+  background-image: url("../assets/KulhadChai.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+
+
+.frontpanna{
+  background-image: url("../assets/Pannakkam.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+
+
+.frontkulfi{
+  background-image: url("../assets/icecream.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+
+
+.frontpaan{
+  background-image: url("../assets/BanarasiPaan.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}
+
+.frontmukh{
+  background-image: url("../assets/Mukhvas.png");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+}

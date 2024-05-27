@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="./assets/Screenshot 2024-05-16 at 19.26.34.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Book Table</title>
+  
+</head>
+<body>
+
+  <div class="relative">
+    <nav class="fixed left-0 right-0 items-end justify-end px-10 py-4 text-base font-bold text-white bg-pink-300 top-2">
+      <ul class="flex justify-end px-4 py-0 space-x-8">
+        <li class="duration-1000 ease-in-out cursor-pointer hover:text-black hover:font-extrabold hover:scale-125">
+          <a href="http://127.0.0.1:5500/home.html" target="_blank">HOME</a> 
+        </li>
+        <li class="duration-1000 ease-in-out cursor-pointer hover:text-black hover:font-extrabold hover:scale-125">
+          <a href="http://127.0.0.1:5500/offlinemenus.html" target="_blank">MENUS</a>
+        </li>
+        <li class="duration-1000 ease-in-out cursor-pointer hover:text-black hover:font-extrabold hover:scale-125">
+          <a href="http://127.0.0.1:5500/pickup.html" target="_blank">PICKUP & DELIVERY</a>
+        </li>
+        <li class="duration-1000 ease-in-out cursor-pointer hover:text-black hover:font-extrabold hover:scale-125">
+          <a href="http://127.0.0.1:5500/catering.html" target="_blank">CATERING</a>
+        </li>
+        <li class="duration-1000 ease-in-out cursor-pointer hover:text-black hover:font-extrabold hover:scale-125">
+          <a href="http://127.0.0.1:5500/booktable.html" target="_blank">BOOK A TABLE</a>
+        </li>
+        <li class="duration-1000 ease-in-out cursor-pointer hover:text-black hover:font-extrabold hover:scale-125">
+          <a href="http://127.0.0.1:5500/index.html" target="_blank">ABOUT</a>
+        </li>
+        
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <h1 class="w-2/3 h-32 mt-24 text-3xl font-bold text-center text-black bg-white ml-44">You want to avoid waiting time during rush hours? <br> <span class="text-3xl font-bold text-black bg-white">Here you can reserve a table.</span></h1>
+
+  <div id="reservation" class="w-2/3 pt-4 pb-10 mt-10 rounded-l-full rounded-r-full shadow-2xl ml-44 h-max bg-gradient-to-bl from-green-200 to-blue-300">
+
+    <div>
+      <h2 class="text-3xl text-center ">Table Reservation</h2>
+    </div>
+    
+    <form action="" onsubmit="return validateForm()">
+      <div class="mt-4 ml-10 mr-10 text-xl text-center ">
+        <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="text"  id="fname" placeholder="First name"   />
+        <p class="text-center text-red-600" id="fnameError"></p>
+      </div>
+    
+      <div class="mt-4 ml-10 mr-10 text-xl text-center">
+        <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="text" placeholder="Last name"   id="lname" >
+        <p class="text-center text-red-600" id="lnameError"></p>
+      </div>
+
+      <div class="mt-4 ml-10 mr-10 text-xl text-center">
+        <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="email" placeholder="Email"   id="mailaddress" >
+        <p class="text-center text-red-600" id="mailError"></p>
+      </div>
+
+      <div class="mt-4 ml-10 mr-10 text-xl text-center">
+        <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="tel" placeholder="Phone number"   id="phone" >
+        <p class="text-center text-red-600" id="phoneError"></p>
+      </div>
+
+      <div class="mt-4 ml-10 mr-10 text-xl text-center">
+        <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="number" placeholder="Number of guests" min="1"  max="20" id="guest" >
+        <p class="text-center text-red-600" id="guestError"></p>
+      </div>
+
+      <div class="mt-4 ml-10 mr-10 text-xl text-center">
+        <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="date" placeholder="Date"   id="date" >
+        <p class="text-center text-red-600" id="dateError"></p>
+      </div>
+
+      <div class="mt-4 ml-10 mr-10 text-xl text-center">
+        <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="time" placeholder="Time"   id="time" >
+        <p class="text-center text-red-600" id="timeError"></p>
+      </div>
+
+      <br>
+      <br>
+
+      
+      <div class="text-center">
+        <button class="w-20 h-12 text-lg font-bold text-pink-600 duration-1000 bg-black delay-50 active:opacity-50 hover:text-black hover:bg-white rounded-2xl" type="submit">Book</button>
+      </div>
+      
+    </form>
+
+
+  </div>
+
+
+
+<script src="pcApp.js"></script>
+
+</body>
+</html>
