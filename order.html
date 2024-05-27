@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles/orderpage.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="ordermenuweb order-grid ">
   <div class="relative">
     <nav class="fixed left-0 right-0 items-end justify-end px-10 py-4 text-base font-bold text-white bg-pink-300 top-2">
       <ul class="flex justify-end px-4 py-0 space-x-8">
@@ -38,16 +38,24 @@
   </div>
 
 
-  <h1 class="mt-8 mb-12 ml-16 text-5xl font-bold">Starters</h1>
+  <h1 class="mt-24 mb-12 ml-16 text-5xl font-bold">Starters</h1>
 
-  <div class="grid justify-start grid-cols-3 align-items-start">
+  <div class="relative grid justify-start grid-cols-3 align-items-start order-grid">
 
     <div class="container mr-16 duration-1000 ease-in-out hover:scale-110">
     <div class=" card">
       <div class="frontptd">
     
-        <h2 class="mt-48 ml-2 text-2xl">Paatodi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;6,99&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="text-3xl">+</button></h2>
+       
+
         
+        <h2 class="mt-48 ml-2 text-2xl dishname">Paatodi&nbsp;&nbsp;€&nbsp;&nbsp;6,99</h2>
+        
+        <p  class="float-right max-sm:text-xs max-md:text-md -mt-7">
+          <button  class="w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+          
+        </p>
+      
         
           </div>
     </div>
@@ -57,7 +65,12 @@
 
     <div class="card">
       <div class="frontdkl">
-        <h2 class="mt-48 ml-2 text-2xl">Dhokla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;6,99</h2>
+        <h2 class="mt-48 ml-2 text-2xl dishname">Dhokla&nbsp;&nbsp;€&nbsp;&nbsp;6,99</h2>
+
+        <p  class="-mt-7 ">
+          <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+          
+        </p>
       </div>
        
     </div>
@@ -67,7 +80,12 @@
   <div class="container ml-24 mr-16 duration-1000 ease-in-out hover:scale-110">
     <div class="card">
       <div class="frontpp">
-        <h2 class="mt-48 ml-2 text-2xl">Paani&nbsp;Puri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+        <h2 class="mt-48 ml-2 text-2xl dishname">Paani&nbsp;Puri&nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+
+        <p  class="-mt-7 ">
+          <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+          
+        </p>
       </div>
 
   </div>
@@ -75,7 +93,12 @@
   <div class="container duration-1000 ease-in-out hover:scale-110">
     <div class="card">
       <div class="frontptan">
-        <h2 class="mt-48 ml-2 text-2xl ">Paneer&nbsp;Tandoori&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;8,99</h2>
+        <h2 class="mt-48 ml-2 text-2xl dishname">Paneer&nbsp;Tandoori&nbsp;&nbsp;€&nbsp;&nbsp;8,99</h2>
+
+        <p  class="-mt-7 ">
+          <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+          
+        </p>
       </div>
     
   
@@ -88,13 +111,18 @@
    <h1 class="mt-8 mb-12 ml-16 text-5xl font-bold">Main Courses</h1>
 
 
-   <div class="grid justify-start grid-cols-3 place-items-center">
+   <div class="relative grid justify-start grid-cols-3 place-items-center">
 
     <div class="container duration-1000 ease-in-out ml-44 hover:scale-110">
       <div class="card">
         <div class="frontdosa">
 
-    <h2 class="mt-48 ml-2 text-2xl">Dosa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;9,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Dosa&nbsp;&nbsp;€&nbsp;&nbsp;9,99</h2>
+
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
   </div>
   
 </div>
@@ -103,7 +131,12 @@
 <div class="container duration-1000 ease-in-out ml-60 hover:scale-110">
 <div class="card">
   <div class="frontidli">
-    <h2 class="mt-48 ml-2 text-2xl">Idli&nbsp;Sambar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;9,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Idli&nbsp;Sambar&nbsp;&nbsp;€&nbsp;&nbsp;9,99</h2>
+
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
   </div>
  
 </div>
@@ -113,7 +146,12 @@
     <div class="card">
       <div class="frontbf">
 
-    <h2 class="mt-48 ml-2 text-2xl">Bhindi&nbsp;Fry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2> 
+    <h2 class="mt-48 ml-2 text-2xl dishname">Bhindi&nbsp;Fry&nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2> 
+
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
     </div>
     
   </div>
@@ -123,7 +161,12 @@
     <div class="container duration-1000 ease-in-out ml-44 hover:scale-110">
       <div class="card">
         <div class="frontkbir">
-          <h2 class="mt-48 ml-2 text-2xl">Kulhad&nbsp;Biryani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;8,99</h2>
+          <h2 class="mt-48 ml-2 text-2xl dishname">Kulhad&nbsp;Biryani&nbsp;&nbsp;€&nbsp;&nbsp;8,99</h2>
+
+          <p  class="-mt-7 ">
+            <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+            
+          </p>
         </div>
        
       </div>
@@ -133,7 +176,12 @@
       <div class="card">
         <div class="frontppr">
 
-    <h2 class="mt-48 ml-2 text-2xl">Paneer&nbsp;Pasanda&nbsp;Rice &nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Pasanda&nbsp;Rice &nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
         </div>
        
       </div>
@@ -143,7 +191,11 @@
       <div class="card">
         <div class="frontpalpan">
 
-    <h2 class="mt-48 ml-2 text-2xl">Paalak&nbsp;Paneer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Paalak&nbsp;Paneer &nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
 
     </div>
    
@@ -154,7 +206,11 @@
       <div class="card">
         <div class="frontpanang">
 
-    <h2 class="mt-48 ml-2 text-2xl">Paneer&nbsp;Angara &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;10,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Paneer&nbsp;Angara &nbsp;&nbsp;€&nbsp;&nbsp;10,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
         </div>
 
 </div>
@@ -164,7 +220,11 @@
 <div class="card">
   <div class="frontpankad">
 
-    <h2 class="mt-48 ml-2 text-2xl">Paneer&nbsp;Kadhai &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Paneer&nbsp;Kadhai &nbsp;&nbsp;7,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
 
   </div>
 
@@ -175,7 +235,11 @@
 <div class="card">
   <div class="frontpanlav">
 
-    <h2 class="mt-48 ml-2 text-2xl">Paneer&nbsp;Lababdaar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;8,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Paneer&nbsp;Lababdaar &nbsp;&nbsp;€&nbsp;&nbsp;8,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
 
   </div>
 </div>
@@ -185,7 +249,11 @@
 <div class="card">
   <div class="frontptm">
 
-    <h2 class="mt-48 ml-2 text-2xl">Paneer&nbsp;Tikka&nbsp;Masaala &nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Tikka&nbsp;Masaala &nbsp;&nbsp;€&nbsp;&nbsp;7,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
 
   </div>
 </div>
@@ -195,7 +263,11 @@
 <div class="card">
   <div class="front56">
 
-    <h2 class="mt-48 ml-2 text-2xl">56&nbsp;Bhog&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;15,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">56&nbsp;Bhog&nbsp;&nbsp;€&nbsp;&nbsp;15,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
   </div>
 </div>
 </div>
@@ -210,7 +282,11 @@
     <div class="container duration-1000 ease-in-out ml-44 hover:scale-110">
       <div class="card">
         <div class="frontmanlas">
-    <h2 class="mt-48 ml-2 text-2xl">Mango&nbsp;Lassi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;2,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Mango&nbsp;Lassi&nbsp;&nbsp;€&nbsp;&nbsp;2,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
         </div>
       </div>
     </div>
@@ -219,7 +295,11 @@
       <div class="card">
         <div class="frontnim">
 
-    <h2 class="mt-48 ml-2 text-2xl">Nimbu&nbsp;Paani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;1,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Nimbu&nbsp;Paani&nbsp;&nbsp;€&nbsp;&nbsp;1,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
         </div>     
       </div>
     </div>
@@ -228,7 +308,11 @@
       <div class="card">
         <div class="frontchai">
 
-    <h2 class="mt-48 ml-2 text-2xl">Kulhad&nbsp;Chai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;2,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Kulhad&nbsp;Chai&nbsp;&nbsp;€&nbsp;&nbsp;2,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
         </div>
       </div>
   </div>
@@ -237,12 +321,14 @@
     <div class="card">
       <div class="frontpanna">
 
-    <h2 class="mt-48 ml-2 text-2xl">Pannakkam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;3,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Pannakkam&nbsp;&nbsp;€&nbsp;&nbsp;3,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
 
       </div>
-      <div class="back">
-      <p>Revitalize your senses with our classic Pannakkam. This refreshing beverage is crafted from jaggery, water, and infused with dried ginger, cardamom, and a touch of lemon. Served chilled, it offers a delightful balance of sweetness and tanginess for a truly invigorating experience.</p>
-  </div>
+      
     </div>
   </div>
 </div>
@@ -255,7 +341,11 @@
       <div class="card">
         <div class="frontkulfi">
 
-    <h2 class="mt-48 ml-2 text-xl">Rajasthani&nbsp;Kulfi&nbsp;Icecream&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;5,49</h2>
+    <h2 class="mt-48 ml-2 text-xl dishname">Rajasthani&nbsp;Kulfi&nbsp;Icecream&nbsp;€&nbsp;&nbsp;5,49</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
         </div>
        
       </div>
@@ -265,7 +355,11 @@
       <div class="card">
         <div class="frontpaan">
 
-    <h2 class="mt-48 ml-2 text-2xl">Banarasi&nbsp;Paan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;2,99</h2>
+    <h2 class="mt-48 ml-2 text-2xl dishname">Banarasi&nbsp;Paan&nbsp;&nbsp;€&nbsp;&nbsp;2,99</h2>
+    <p  class="-mt-7 ">
+      <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+      
+    </p>
         </div>
        
       </div>
@@ -275,7 +369,11 @@
       <div class=" card">
         
         <div class="frontmukh">
-          <h2 class="mt-48 ml-2 text-2xl">Raajsi&nbsp;Mukhwaas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€&nbsp;&nbsp;1,99</h2>
+          <h2 class="mt-48 ml-2 text-2xl dishname">Raajsi&nbsp;Mukhwaas &nbsp;&nbsp;€&nbsp;&nbsp;1,99</h2>
+          <p  class="-mt-7 ">
+            <button  class="float-right w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
+            
+          </p>
         </div>
       </div>
     </div>

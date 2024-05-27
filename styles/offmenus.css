@@ -395,3 +395,44 @@
   background-size: 10% 10%;
 }
 
+
+@media (max-width: 750px) {
+  .order-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .dishtext {
+    font-size: x-small;    
+ }
+ .dishname {
+  font-size: large;
+ }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  
+  .order-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ 
+  .dishtext {
+    font-size: small;    
+ }
+ .dishname {
+  font-size: medium;
+ }
+
+}
+
+@media (min-width: 1000px) {
+  .order-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .dishtext {
+    font-size: medium;    
+ }
+
+ .dishname {
+  font-size: larger;
+ }
+}

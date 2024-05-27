@@ -1,5 +1,6 @@
 .body {
   display:grid;
+  
   justify-content: start;
   align-items: start;
 }
@@ -29,6 +30,7 @@
 .front {
   background-image: url("../assets/icecream.png");
   background-repeat: no-repeat;
+  display: flex;
   height: 100%;
   width: 100%;
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
@@ -268,3 +270,69 @@
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
 }
+
+.cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip
+ {
+  font-family: roboto, arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  top: -29px;
+  opacity: 0;
+  transition: opacity 0.0005s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+ .cart:hover .tooltip  {
+  opacity: 1;
+  z-index: 300;
+}
+
+@media (max-width: 750px) {
+  .order-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+ .dishname {
+  font-size: xx-small;
+  text-wrap: wrap;
+ }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  
+  .order-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ .dishname {
+  font-size: 5px;
+  text-wrap: wrap;
+ }
+
+}
+
+@media (min-width: 1000px) {
+  .order-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+
+
+ .dishname {
+  font-size: 10px;
+  text-wrap: wrap;
+ }
+}
+
+
