@@ -57,16 +57,6 @@ function validateForm() {
   }
 
 
-  /*  if(email.value == "") {
-    document.getElementById("mailError").innerHTML = "You need to enter an Email address";
-    flag=0;
-  } else if(email.value.match(regx)) {
-    document.getElementById("mailError").innerHTML = "";
-    flag=1;
-  } else {
-    document.getElementById("mailError").innerHTML = "Invalid Email address";
-    flag=0;
-  }   */
 
   if(phone.value == "") {
     document.getElementById("phoneError").innerHTML = "Phone number is required";
