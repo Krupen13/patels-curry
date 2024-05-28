@@ -1,112 +1,133 @@
 const items = [{
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Paatodi.png',
+  image: 'assets/Paatodi.png',
   name: 'Paatodi',
-  price: 699
+  price: 699,
+  classname: 'frontptd'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Dhokla.png',
+  image: 'assets/Dhokla.png',
   name: 'Dhokla',
-  price: 699
+  price: 699,
+  classname: 'frontdkl'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaaniPuri.png',
+  image: 'assets/PaaniPuri.png',
   name: 'Paani Puri',
-  price: 799
+  price: 799,
+  classname: 'frontpp'
 }, 
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerTandoori.png',
+  image: 'assets/PaneerTandoori.png',
   name: 'Paneer Tandoori',
   price: 899
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Dosa.png',
+  image: 'assets/Dosa.png',
   name: 'Dosa',
-  price: 999
+  price: 999,
+  classname: 'frontdosa'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Idlivada.png',
+  image: 'assets/Idlivada.png',
   name: 'Idli Sambar',
-  price: 999
+  price: 999,
+  classname: 'frontidli'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/BhindiFry.png',
+  image: 'assets/BhindiFry.png',
   name: 'Bhindi Fry',
-  price: 799
+  price: 799,
+  classname: 'frontbf'
 }, 
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Biryani.png',
+  image: 'assets/Biryani.png',
   name: 'Kulhad Biryani',
-  price: 899
+  price: 899,
+  classname: 'frontkbir'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerPasandaRice.png',
+  image: 'assets/PaneerPasandaRice.png',
   name: 'Pasanda Rice',
-  price: 799
+  price: 799,
+  classname: 'frontppr'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaalakPaneer.png',
+  image: 'assets/PaalakPaneer.png',
   name: 'Paalak Paneer',
-  price: 799
+  price: 799,
+  classname: 'frontpalpan'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerAngara.png',
+  image: 'assets/PaneerAngara.png',
   name: 'Paneer Angara',
-  price: 1099
+  price: 1099,
+  classname: 'frontpanang'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerKadhai.png',
+  image: 'assets/PaneerKadhai.png',
   name: 'Paneer Kadhai',
-  price: 799
+  price: 799,
+  classname: 'frontpankad'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerLababdar.png',
+  image: 'assets/PaneerLababdar.png',
   name: 'Paneer Lababdaar',
-  price: 899
+  price: 899,
+  classname: 'frontpanlav'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerTikkaMasaala.png',
+  image: 'assets/PaneerTikkaMasaala.png',
   name: 'Tikka Masaala',
-  price: 799
+  price: 799,
+  classname: 'frontptm'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Thali.png',
+  image: 'assets/Thali.png',
   name: '56 Bhog',
-  price: 1599
+  price: 1599,
+  classname: 'front56'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/MangoLassi.png',
+  image: 'assets/MangoLassi.png',
   name: 'Mango Lassi',
-  price: 299
+  price: 299,
+  classname: 'frontmanlas'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/NimbuPaani.png',
+  image: 'assets/NimbuPaani.png',
   name: 'Nimbu Paani',
-  price: 199
+  price: 199,
+  classname: 'frontnim'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/KulhadChai.png',
+  image: 'assets/KulhadChai.png',
   name: 'Kulhad Chai',
-  price: 299
+  price: 299,
+  classname: 'frontchai'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Pannakkam.png',
+  image: 'assets/Pannakkam.png',
   name: 'Pannakkam',
-  price: 399
+  price: 399,
+  classname: 'frontpanna'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/icecream.png',
+  image: 'assets/icecream.png',
   name: 'Rajasthani Kulfi Icecream',
-  price: 549
+  price: 549,
+  classname: 'frontkulfi'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/BanarasiPaan.png',
+  image: 'assets/BanarasiPaan.png',
   name: 'Banarasi Paan',
-  price: 299
+  price: 299,
+  classname: 'frontpaan'
 },
 {
-  image: '/Users/krupenpatel/Documents/Patels-Curry/assets/Mukhvas.png',
+  image: 'assets/Mukhvas.png',
   name: 'Raajsi Mukhvaas',
-  price: 199
+  price: 199,
+  classname: 'frontmukh'
 }];
 
 let itemsHTML = '';
@@ -114,24 +135,26 @@ let itemsHTML = '';
 items.forEach((item) => {
 
   itemsHTML += `
-              <div class="container mr-16 duration-1000 ease-in-out hover:scale-110">
-                <div class=" card">
-                  <div class="frontptd">
-                
-                  
+  <div class="container mb-8 mr-16 duration-1000 ease-in-out hover:scale-110">
+  <div class=" card">
+    
+    <div class="frontptd">
 
-                    
-                    <h2 class="mt-48 ml-2 text-2xl dishname">${item.name}&nbsp;&nbsp;€&nbsp;&nbsp;€${item.price / 100}</h2>
-                    
-                    <p  class="float-right max-sm:text-xs max-md:text-md -mt-7">
-                      <button  class="w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-white bg-red-400 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-white hover:text-red-400 hover:scale-110 hover:border-black">+<div class="tooltip">Add to cart</div></button>
-                      
-                    </p>
-                  
-                    
-                      </div>
-                </div>
-              </div>
+      <img class="w-full h-full" src="${item.image}">
+    
+
+      
+      <h2 class="ml-2 text-2xl dishname">${item.name}&nbsp;€${item.price / 100}</h2>
+      
+      <p  class="float-right max-sm:text-xs max-md:text-md -mt-7">
+        <button  class="w-8 h-6 pl-2 pr-2 mr-2 text-sm font-extrabold text-black bg-green-300 border-2 border-white rounded-md shadow-2xl cart active:bg-red-200 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-rose-600 hover:text-white hover:scale-110 hover:border-green-600">+<div class="tooltip">Add to cart</div></button>
+        
+      </p>
+    
+      
+        </div>
+  </div>
+</div>
   `;
 
 });
@@ -139,7 +162,7 @@ items.forEach((item) => {
 console.log(itemsHTML);
 
 
-
+document.querySelector('.js-items-grid').innerHTML = itemsHTML ;
 
 
 

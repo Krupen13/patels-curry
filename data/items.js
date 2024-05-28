@@ -2,7 +2,8 @@ const items = [
   {
     "id" : "1",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Paatodi.png",
-    "name" : "Paatodi"
+    "name" : "Paatodi",
+    "classname": "frontptd"
   }, {
     "price" : "699"
   },
@@ -10,7 +11,8 @@ const items = [
   {
     "id" : "2",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerAngara.png",
-    "name" : "Paneer Angara"
+    "name" : "Paneer Angara",
+    "classname": "frontpanang"
   }, {
     "price" : "1099"
   },
@@ -18,7 +20,8 @@ const items = [
   {
     "id" : "3",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Dosa.png",
-    "name" : "Dosa"
+    "name" : "Dosa",
+    "classname": "frontdosa"
   }, {
     "price" : "999"
   },
@@ -26,7 +29,8 @@ const items = [
   {
     "id" : "4",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Biryani.png",
-    "name" : "Kulhad Biryani"
+    "name" : "Kulhad Biryani",
+    "classname": "frontkbir"
   }, {
     "price" : "899"
   },
@@ -34,7 +38,8 @@ const items = [
   {
     "id" : "5",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Idlivada.png",
-    "name" : "Idli Sambar"
+    "name" : "Idli Sambar",
+    "classname": "frontidli"
   }, {
     "price" : "999"
   },
@@ -42,7 +47,8 @@ const items = [
   {
     "id" : "6",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerKadhai.png",
-    "name" : "Paneer Kadhai"
+    "name" : "Paneer Kadhai",
+    "classname": "frontpankad"
   }, {
     "price" : "799"
   },
@@ -50,7 +56,8 @@ const items = [
   {
     "id" : "7",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerPasandaRice.png",
-    "name" : "Pasanda Rice"
+    "name" : "Pasanda Rice",
+    "classname": "frontppr"
   }, {
     "price" : "799"
   },
@@ -58,7 +65,8 @@ const items = [
   {
     "id" : "8",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerTikkaMasaala.png",
-    "name" : "Tikka Masaala"
+    "name" : "Tikka Masaala",
+    "classname": "frontptm"
   }, {
     "price" : "799"
   },
@@ -66,14 +74,16 @@ const items = [
   {
     "id" : "9",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaalakPaneer.png",
-    "name" : "Paalak Paneer"
+    "name" : "Paalak Paneer",
+    "classname": "frontpalpan"
   }, {
     "price" : "799"
   },
   {
     "id" : "10",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerTandoori.png",
-    "name" : "Paneer Tandoori"
+    "name" : "Paneer Tandoori",
+    "classname": "frontptan"
   }, {
     "price" : "899"
   },
@@ -81,7 +91,8 @@ const items = [
   {
     "id" : "11",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaneerLababdar.png",
-    "name" : "Paneer Lababdar"
+    "name" : "Paneer Lababdar",
+    "classname": "frontpanlav"
   }, {
     "price" : "899"
   },
@@ -89,7 +100,8 @@ const items = [
   {
     "id" : "12",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/BanarasiPaan.png",
-    "name" : "Banarasi Paan"
+    "name" : "Banarasi Paan",
+    "classname": "frontpaan"
   }, {
     "price" : "299"
   },
@@ -97,7 +109,8 @@ const items = [
   {
     "id" : "13",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/icecream.png",
-    "name" : "Rajasthani Kulfi Ice-cream"
+    "name" : "Rajasthani Kulfi Ice-cream",
+    "classname": "frontkulfi"
   }, {
     "price" : "549"
   },
@@ -105,7 +118,8 @@ const items = [
   {
     "id" : "14",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Thali.png",
-    "name" : "56 Bhog"
+    "name" : "56 Bhog",
+    "classname": "front56"
   }, {
     "price" : "1599"
   },
@@ -113,7 +127,8 @@ const items = [
   {
     "id" : "15",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/BhindiFry.png",
-    "name" : "Bhindi Fry"
+    "name" : "Bhindi Fry",
+    "classname": "frontbf"
   }, {
     "price" : "799"
   },
@@ -121,7 +136,8 @@ const items = [
   {
     "id" : "16",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Mukhvas.png",
-    "name" : "Raajsi Mukhvaas"
+    "name" : "Raajsi Mukhvaas",
+    "classname": "frontmukh"
   }, {
     "price" : "199"
   },
@@ -129,7 +145,8 @@ const items = [
   {
     "id" : "17",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/MangoLassi.png",
-    "name" : "Mango Lassi"
+    "name" : "Mango Lassi",
+    "classname": "frontmanlas"
   }, {
     "price" : "299"
   },
@@ -137,7 +154,8 @@ const items = [
   {
     "id" : "18",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/NimbuPaani.png",
-    "name" : "Nimbu Paani"
+    "name" : "Nimbu Paani",
+    "classname": "frontnim"
   }, {
     "price" : "199"
   },
@@ -145,7 +163,8 @@ const items = [
   {
     "id" : "19",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/KulhadChai.png",
-    "name" : "Kulhad Chai"
+    "name" : "Kulhad Chai",
+    "classname": "frontchai"
   }, {
     "price" : "299"
   },
@@ -153,14 +172,16 @@ const items = [
   {
     "id" : "20",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Pannakkam.png",
-    "name" : "Pannakkam"
+    "name" : "Pannakkam",
+    "classname": "frontpanna"
   }, {
     "price" : "399"
   },
   {
     "id" : "21",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/Dhokla.png",
-    "name" : "Dhokla"
+    "name" : "Dhokla",
+    "classname": "frontdkl"
   }, {
     "price" : "699"
   },
@@ -168,7 +189,8 @@ const items = [
   {
     "id" : "22",
     "image" : "/Users/krupenpatel/Documents/Patels-Curry/assets/PaaniPuri.png",
-    "name" : "Paani Puri"
+    "name" : "Paani Puri",
+    "classname": "frontpp"
   }, {
     "price" : "799"
   }
