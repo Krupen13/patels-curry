@@ -49,7 +49,7 @@
       <h2 class="text-3xl text-center ">Table Reservation</h2>
     </div>
     
-    <form action="" onsubmit="return validateForm()">
+    <form action="" >
       <div class="mt-4 ml-10 mr-10 text-xl text-center ">
         <input class="h-10 text-center w-60 rounded-tr-3xl rounded-bl-3xl" type="text"  id="fname" placeholder="First name"   />
         <p class="text-center text-red-600" id="fnameError"></p>
@@ -90,7 +90,7 @@
 
       
       <div class="text-center">
-        <button class="w-20 h-12 text-lg font-bold text-pink-600 duration-1000 bg-black delay-50 active:opacity-50 hover:text-black hover:bg-white rounded-2xl" type="submit">Book</button>
+        <button onclick="return validateForm()" class="w-20 h-12 text-lg font-bold text-pink-600 duration-1000 bg-black delay-50 active:opacity-50 hover:text-black hover:bg-white rounded-2xl" type="submit">Book</button>
       </div>
       
     </form>
@@ -100,7 +100,7 @@
 
 
 
-<script src="pcApp.js"></script>
+<script src="scripts/formvalidation.js"></script>
 
 </body>
 </html>
