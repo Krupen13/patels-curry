@@ -151,7 +151,7 @@ const items = [
   {
     "id" : "13",
     "image" : "assets/icecream.png",
-    "name" : "Rajasthani Kulfi Ice-cream",
+    "name" : "Rajasthani Kulfi",
     "classname": "frontkulfi",
     "price" : "549"
   },
