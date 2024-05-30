@@ -39,7 +39,7 @@ function updateCartQuantity() {
   let cartQuantity = 0;
   cart.forEach((cartItem) => {
     cartQuantity += cartItem.quantity;
-  });
+  });  
 
   document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
 }
@@ -51,6 +51,9 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     updateCartQuantity();
 
   });
+
+
+  
 });
 
 

@@ -189,8 +189,7 @@
   {
     "id" : "22",
     "image" : "/Users/krupenpatel/Documents/Patel's Curry/assets/PaaniPuri.png",
-    "name" : "Paani Puri",
-    "classname": "frontpp"
+    "name" : "Paani Puri"
   }, {
     "price" : "799"
   }
