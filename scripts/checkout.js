@@ -1,5 +1,6 @@
 import {cart} from '../data/cart.js';
 import {items} from '../data/items.js';
+import {currencyRound} from './utilities/currency.js';
 
 let cartSummaryHTML = '';
 
@@ -32,8 +33,9 @@ cart.forEach((cartItem) => {
                 ${matchingProduct.name}
               </div>
               <div class="product-price">
-                € ${matchingProduct.price / 100}
+                € ${currencyRound(matchingProduct.price)}
               </div>
+
               <div class="product-quantity">
                 <span>
                   Quantity: <span class="quantity-label">${cartItem.quantity}</span>
