@@ -21,7 +21,7 @@ cart.forEach((cartItem) => {
   `
   <div class="shadow-xl cart-item-container js-cart-item-container-${matchingProduct.id}">
           <div class="mt-2 mb-6 text-lg font-bold text-pink-600">
-            Delivery date: Tuesday, June 21
+            Will be delivered in 30-45 minutes
           </div>
 
           <div class="cart-item-details-grid">
