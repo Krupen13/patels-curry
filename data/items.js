@@ -1,14 +1,14 @@
 export function getItems(itemId) {
 
-    let matchingItem;
+    let matchingProduct;
 
     items.forEach((items) => {
         if(items.id === itemId) {
-            matchingItem = items;
+            matchingProduct = items;
         }
     });
 
-    return matchingItem;
+    return matchingProduct;
 
 }
 
