@@ -1,10 +1,21 @@
-export let cart = [{
-  itemId : '13',
-  quantity: 1
-}, {
-  itemId: '17',
-  quantity: 1
-}];
+export let cart = JSON.parse(localStorage.getItem('cart'));
+
+if(!cart) {
+  cart = [{
+    itemId : '13',
+    quantity: 1
+  }, {
+    itemId: '17',
+    quantity: 1
+  }];
+}
+
+
+  function saveToStorage() {
+    localStorage.setItem('cart', JSON.stringify(cart));
+  }  
+
+
 
 export function addToCart(itemId) {
   let matchingItem;
@@ -24,6 +35,7 @@ export function addToCart(itemId) {
       quantity: 1
     });
   }
+saveToStorage();
 }
 
 export function deleteFromCart(itemId) {
@@ -36,4 +48,6 @@ export function deleteFromCart(itemId) {
    });
 
    cart = newCart;
+
+   saveToStorage();
   }
