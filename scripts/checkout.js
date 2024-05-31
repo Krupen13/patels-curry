@@ -19,7 +19,7 @@ cart.forEach((cartItem) => {
 
   cartSummaryHTML +=
   `
-  <div class="shadow-xl cart-item-container">
+  <div class="shadow-xl cart-item-container js-cart-item-container-${matchingProduct.id}">
           <div class="mt-2 mb-6 text-lg font-bold text-pink-600">
             Delivery date: Tuesday, June 21
           </div>
@@ -62,6 +62,10 @@ document.querySelectorAll('.js-delete-link').forEach((link) => {
   link.addEventListener('click', () => {
     const itemId = link.dataset.itemId;
     deleteFromCart(itemId);
-    console.log(cart);
-  })
-})
+    
+
+   const container = document.querySelector(`.js-cart-item-container-${itemId}`);
+   container.remove();
+  });
+
+});
