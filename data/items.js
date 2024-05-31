@@ -1,3 +1,17 @@
+export function getItems(itemId) {
+
+    let matchingItem;
+
+    items.forEach((items) => {
+        if(items.id === itemId) {
+            matchingItem = items;
+        }
+    });
+
+    return matchingItem;
+
+}
+
 export const items = [
   {
     id : "1",
