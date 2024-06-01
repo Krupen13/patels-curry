@@ -52,7 +52,7 @@ export function renderPaymentSummary() {
               ${currencyRound(total)}</div>
             </div>
 
-            <button class="w-full pt-2 pb-2 pl-6 pr-6 mb-3 text-2xl font-bold text-black bg-pink-300 rounded-xl hover:text-white  hover:bg-pink-200 active:bg-pink-100 button-primary">
+            <button class="w-full pt-2 pb-2 pl-6 pr-6 place-your-order-btn mb-3 text-2xl font-bold text-black bg-pink-300 rounded-xl hover:text-white  hover:bg-pink-200 active:bg-pink-100 button-primary">
               Place your order
             </button>
  
