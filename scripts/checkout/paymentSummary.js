@@ -68,9 +68,9 @@ export function renderPaymentSummary() {
 
  placedYourOrderHTML = `
  
- <div class="text-5xl pt-20 pr-10 pl-10 pb-4 mb-28 text-blue-900 font-bold "><p> Thank you for Stopping by. </p>
+ <div class="text-5xl pt-20 pr-10 pl-10 pb-4 mb-28 text-pink-400 font-bold "><p> Thank you for Stopping by. </p>
  
- <p> Enjoy your meal. </p> </div>
+ <p class="text-blue-800"> Enjoy your meal. </p> </div>
  
  `;
 
