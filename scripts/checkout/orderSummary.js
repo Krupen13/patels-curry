@@ -3,6 +3,7 @@ import {items, getItems} from '../../data/items.js';
 import {currencyRound} from '../utilities/currency.js';
 import {renderPaymentSummary} from './paymentSummary.js';
 
+
 export function renderOrderSummary() {
 
       let cartSummaryHTML = '';
@@ -36,10 +37,10 @@ export function renderOrderSummary() {
                       <span>
                         Quantity: <span class="quantity-label">${cartItem.quantity}</span>
                       </span>
-                      <span class="text-green-600 hover:text-red-500 font-semibold update-quantity-link link-primary">
+                     <!-- <span class="text-green-600 hover:text-red-500 font-semibold update-quantity-link link-primary">
                         Update
-                      </span>
-                      <span class="text-red-600 hover:text-blue-500 font-semibold js-delete-link delete-quantity-link link-primary" data-item-id="${matchingProduct.id}">
+                      </span>  -->
+                      <span class="text-red-600 hover:text-green-600 font-semibold js-delete-link delete-quantity-link link-primary" data-item-id="${matchingProduct.id}">
                         Delete
                       </span>
                     </div>

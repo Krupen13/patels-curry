@@ -129,33 +129,6 @@
   }
 }
 
-.delivery-options-title {
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.delivery-option {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  margin-bottom: 12px;
-  cursor: pointer;
-}
-
-.delivery-option-input {
-  margin-left: 0px;
-  cursor: pointer;
-}
-
-.delivery-option-date {
-  color: rgb(0, 118, 0);
-  font-weight: 500;
-  margin-bottom: 3px;
-}
-
-.delivery-option-price {
-  color: rgb(120, 120, 120);
-  font-size: 15px;
-}
 
 .payment-summary-title {
   font-weight: 700;

@@ -10,8 +10,7 @@ if(!cart) {
   }];
 }
 
-
-  function saveToStorage() {
+ function saveToStorage() {
     localStorage.setItem('cart', JSON.stringify(cart));
   }  
 
