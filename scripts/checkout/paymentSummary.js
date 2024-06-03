@@ -104,7 +104,7 @@ export function renderPaymentSummary() {
 
  localStorage.clear();
 
- 
+
 
 }
 
