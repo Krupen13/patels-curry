@@ -1,16 +1,10 @@
 export let cart = JSON.parse(localStorage.getItem('cart'));
 
 if(!cart) {
-  cart = [{
-    itemId : '13',
-    quantity: 1
-  }, {
-    itemId: '17',
-    quantity: 1
-  }];
+  cart = [];
 }
 
- function saveToStorage() {
+export function saveToStorage() {
     localStorage.setItem('cart', JSON.stringify(cart));
   }  
 

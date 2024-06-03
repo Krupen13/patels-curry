@@ -1,4 +1,4 @@
-import {cart, deleteFromCart} from '../../data/cart.js';
+import {cart, deleteFromCart, saveToStorage} from '../../data/cart.js';
 import {items, getItems} from '../../data/items.js';
 import {currencyRound} from '../utilities/currency.js';
 import {renderPaymentSummary} from './paymentSummary.js';
@@ -60,12 +60,20 @@ export function renderOrderSummary() {
         link.addEventListener('click', () => {
           const itemId = link.dataset.itemId;
           deleteFromCart(itemId);
+          saveToStorage();
           
 
         const container = document.querySelector(`.js-cart-item-container-${itemId}`);
         container.remove();
+
+        if(cart.length === 0) {
+          document.querySelector('.js-order-delivery-txt').innerHTML = 'Your cart is empty :(';
+        }
+ 
+        saveToStorage();
         renderPaymentSummary();
         renderOrderSummary();
+       
 
         });
         

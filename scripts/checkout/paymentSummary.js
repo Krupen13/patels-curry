@@ -1,13 +1,21 @@
-import {cart} from '../../data/cart.js';
+import {cart, saveToStorage} from '../../data/cart.js';
 import {getItems} from '../../data/items.js';
 import { currencyRound } from '../utilities/currency.js';
+
 
 
 export function renderPaymentSummary() {
 
 
   let itemPrice = 0;
-  let deliveryCharges = 499;
+  let deliveryCharges = 0;
+
+  if(cart.length === 0) {
+    deliveryCharges = 0;
+  } else {
+    deliveryCharges = 499;
+  }
+ 
   
   cart.forEach((cartItem) => {
      const item = getItems(cartItem.itemId);
@@ -18,6 +26,8 @@ export function renderPaymentSummary() {
   const tax = totalIncludingTax * 0.1;
   const total = totalIncludingTax;
 
+
+
  
    const paymentSummaryHTML = ` 
    
@@ -26,14 +36,14 @@ export function renderPaymentSummary() {
               </div>
 
             <div class="payment-summary-row">
-              <div>Items :</div>
+              <div>Items (${cart.length}):</div>
               <div class="payment-summary-money total-money">€ 
               ${currencyRound(itemPrice)}</div>
             </div>
 
             <div class="payment-summary-row">
               <div>Delivery&nbsp;charges:</div>
-              <div class="payment-summary-money delivery-money">€ 4.99</div>
+              <div class="payment-summary-money delivery-money">€ ${currencyRound(deliveryCharges)}</div>
             </div>
 
             <div class="payment-summary-row subtotal-row">
@@ -77,19 +87,25 @@ export function renderPaymentSummary() {
  document.querySelector('.placed-your-order').addEventListener('click', () => {
   document.querySelector('.js-os-summary').innerHTML = placedYourOrderHTML;
 
+  
 
-   
- 
+
  document.querySelector('.js-order-summary').innerHTML = '';
+
+
  document.querySelector('.js-checkout-txt').innerHTML = '';
+
  document.querySelector('.js-order-delivery-txt').innerHTML = '';
+
  document.querySelector('.js-review-your-order-txt').innerHTML = '';
-
-
 
 
  });
 
+ localStorage.clear();
 
+ 
 
 }
+
+
