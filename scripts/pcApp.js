@@ -63,7 +63,7 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
 
   
 
-    alert(`${items.id} has been added to cart.`);
+    alert(`${items["name"]} has been added to cart.`);
     addToCart(itemId);
     updateCartQuantity(itemId);
 
