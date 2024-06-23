@@ -309,7 +309,7 @@
   }
 
  .dishname, .bevrage, .mainco, .desert {
-  font-size: medium;
+  font-size: xx-small;
   text-wrap: wrap;
  }
 }
@@ -332,7 +332,7 @@
     grid-template-columns: 1fr 1fr;
   }
  .dishname, .bevrage, .mainco, .desert {
-  font-size: large;
+  font-size: small;
   text-wrap: wrap;
  }
 
@@ -356,7 +356,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
  .dishname, .bevrage, .mainco, .desert {
-  font-size: large;
+  font-size: medium;
   text-wrap: wrap;
  }
 
