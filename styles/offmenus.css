@@ -395,7 +395,7 @@
   background-size: 10% 10%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 350px) {
   .starter {
     grid-template-columns: 1fr;
   }
@@ -418,10 +418,16 @@
  }
 }
 
-@media (min-width: 551px) and (max-width: 750px) {
+@media (min-width: 351px) and (max-width: 750px) {
   
   .starter {
+    
     grid-template-columns: 1fr 1fr;
+  }
+
+  .dishtext {
+    font-size: x-small;
+    font-weight: 400;
   }
 
   .mainco {
@@ -444,6 +450,11 @@
 
 @media (min-width: 751px) and (max-width: 999px) {
   
+  .dishtext {
+    font-size: medium;
+    font-weight: 400;
+  }
+
   .starter {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -467,6 +478,12 @@
 }
 
 @media (min-width: 1000px) {
+
+  .dishtext {
+    font-size: large;
+    font-weight: 400;
+  }
+
   .starter {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }

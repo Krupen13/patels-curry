@@ -291,7 +291,7 @@
   z-index: 300;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 350px) {
   .starter {
     grid-template-columns: 1fr;
   }
@@ -314,7 +314,7 @@
  }
 }
 
-@media (min-width: 551px) and (max-width: 750px) {
+@media (min-width: 351px) and (max-width: 750px) {
   
   .starter {
     grid-template-columns: 1fr 1fr;
