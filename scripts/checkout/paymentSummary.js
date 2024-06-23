@@ -64,8 +64,8 @@ export function renderPaymentSummary() {
               ${currencyRound(total)}</div>
             </div>
 
-            <button  class="w-full pt-2 pb-2 pl-6 pr-6  mb-3 text-2xl font-bold text-black bg-pink-300 rounded-xl hover:text-white placed-your-order hover:bg-pink-200 active:bg-pink-100 button-primary" >
-              Place your order
+            <button  class="w-full pt-2 pb-2 pl-6 pr-6  mb-3 text-2xl font-bold text-black bg-pink-300 rounded-xl hover:text-white placed-your-order hover:bg-pink-200 active:bg-pink-100 button-primary" ><a href="https://buy.stripe.com/test_fZe3d99mG5nM1bi144">
+              Place your order </a>
             </button>
  
  `;
@@ -73,7 +73,7 @@ export function renderPaymentSummary() {
  document.querySelector('.js-os-summary').innerHTML = paymentSummaryHTML;
 
 
-
+/*
  let placedYourOrderHTML = '';
 
  placedYourOrderHTML = `
@@ -82,7 +82,7 @@ export function renderPaymentSummary() {
  
  <p class="text-blue-800"> Enjoy your meal. </p> </div>
  
- `;
+ `; 
 
  document.querySelector('.placed-your-order').addEventListener('click', () => {
   document.querySelector('.js-os-summary').innerHTML = placedYourOrderHTML;
@@ -101,7 +101,7 @@ export function renderPaymentSummary() {
 
 
  });
-
+*/
  localStorage.clear();
 
 
