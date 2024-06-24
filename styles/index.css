@@ -2,7 +2,9 @@
 
 
   .vitalimg {
-    margin-left: 90px;
+    display: flex;
+    justify-items: center;
+    margin-top: -120%;
     width: 70%;
     
   }
@@ -11,13 +13,30 @@
     margin-left: 4px;
   }
 
-  .loc {
-    margin-left: 1px;
+  .catim {
+    grid-template-columns: 1fr;
   }
 
-  .firi, .seci, .thii {
-      height: 50px;
-      width: 75px;
+  .loc {
+    margin-left: 24px;
+  }
+
+  .firi {
+    
+    margin-top: -30%;
+      margin-bottom: 24px;
+        height: 170px;
+        width: 250px;
+    
+  } .seci {
+      margin-bottom: 24px;
+        height: 170px;
+        width: 250px;
+    }
+   .thii {
+    margin-bottom: 24px;
+      height: 170px;
+      width: 250px;
   }
 
   .nabar {
