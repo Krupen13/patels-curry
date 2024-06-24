@@ -2,17 +2,22 @@
 
 
   .vitalimg {
-    margin-left: 60px;
+    margin-left: 90px;
     width: 70%;
     
   }
 
   .yc {
-    margin-left: 1px;
+    margin-left: 4px;
   }
 
   .loc {
     margin-left: 1px;
+  }
+
+  .firi, .seci, .thii {
+      height: 50px;
+      width: 75px;
   }
 
   .nabar {
