@@ -641,9 +641,9 @@
   }
 
   .pcimg {
-    margin-left: 835px;
+    margin-left: 1px;
     width: 150px;
-    height: 150px;
+    height: 75px;
   }
 
   .dishtext {
@@ -673,5 +673,9 @@
   font-size: medium;
   text-wrap: wrap;
   
+ }
+
+ .st, .mc, .bevr, .desmukh {
+  font-size: xx-large;
  }
 }
