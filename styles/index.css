@@ -1,0 +1,57 @@
+@media (max-width: 350px) {
+
+
+  .vitalimg {
+    margin-left: 60px;
+    width: 70%;
+    
+  }
+
+  .yc {
+    margin-left: 1px;
+  }
+
+  .loc {
+    margin-left: 1px;
+  }
+
+  .nabar {
+    margin-top: 4px;
+    font-size: xx-small;
+    margin-right: 4px;
+    width:100%;
+  }
+
+ 
+}
+
+@media (min-width: 351px) and (max-width: 750px) {
+  
+  .nabar {
+    font-size: small;
+  }
+
+  
+
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+
+
+  .nabar {
+    font-size: medium;
+  }
+
+ 
+
+}
+
+@media (min-width: 1000px) {
+
+  .nabar {
+    font-size: small;
+  }
+
+ 
+
+}
