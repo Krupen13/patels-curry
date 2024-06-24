@@ -447,13 +447,17 @@
 @media (min-width: 351px) and (max-width: 750px) {
   
   .nabar {
-    font-size: small;
+    margin-top: 4px;
+    font-size: xx-small;
+    margin-right: 4px;
+    width:100%;
   }
 
   .pcimg {
     margin-left: 135px;
     width: 150px;
     height: 150px;
+    margin-top: 10px;
   }
 
 
@@ -489,7 +493,10 @@
 
 
   .nabar {
-    font-size: medium;
+    margin-top: 4px;
+    font-size: xx-small;
+    margin-right: 4px;
+    width:100%;
   }
 
   .pcimg {
@@ -528,7 +535,10 @@
 @media (min-width: 1000px) {
 
   .nabar {
-    font-size: small;
+    margin-top: 4px;
+    font-size: xx-small;
+    margin-right: 4px;
+    width:100%;
   }
 
   .pcimg {
