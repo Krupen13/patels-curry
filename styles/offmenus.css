@@ -397,6 +397,10 @@
 
 @media (max-width: 350px) {
 
+  
+
+  
+
   .dishcon {
     width: 90%;
     margin-right: 2px;
@@ -445,6 +449,8 @@
 }
 
 @media (min-width: 351px) and (max-width: 750px) {
+
+ 
   
   .nabar {
     margin-top: 4px;
@@ -456,7 +462,7 @@
   .pcimg {
     margin-left: 135px;
     width: 150px;
-    height: 150px;
+    height: 75px;
     margin-top: 10px;
   }
 
