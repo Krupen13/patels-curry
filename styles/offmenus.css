@@ -461,6 +461,10 @@
  .st, .mc, .bevr, .desmukh {
   font-size: large;
  }
+
+ .mc {
+  margin-right: 10px;
+ }
 }
 
 @media (min-width: 351px) and (max-width: 550px) {
@@ -520,6 +524,10 @@
 
  .st, .mc, .bevr, .desmukh {
   font-size: large;
+ }
+
+ .mc {
+  margin-right: 10px;
  }
 
 }
