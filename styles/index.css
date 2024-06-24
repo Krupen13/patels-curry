@@ -113,12 +113,16 @@
   }
 
   .yc {
-    margin-left: 140px;
+    margin-left: 20px;
     
   }
 
+  .fc {
+    margin-left: 70px;
+  }
+
   .catim {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .loc {
@@ -158,9 +162,7 @@
 
 @media (min-width: 1000px) {
 
-  .nabar {
-    font-size: small;
-  }
+  
 
  
 
