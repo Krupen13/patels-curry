@@ -1,16 +1,17 @@
 .body {
   display:grid;
-  justify-content: start;
-  align-items: start;
+  
 }
 
 .container{
   width: 300px;
   height: 250px;
-  margin-right: 30%;
-  margin-left: 10%;
+  
   perspective: 500px;
-  justify-items: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   
 }
 .cater{
@@ -446,15 +447,23 @@
     grid-template-columns: 1fr;
   }
 
- .dishname, .starter, .bevrage, .mainco, .desert {
-  font-size: xx-small;
+ .starter, .bevrage, .mainco, .desert {
+  font-size: small;
   text-wrap: wrap;
+ }
+
+ .dishname {
+  font-size: medium;
+  padding-left: -60px;
  }
 }
 
 @media (min-width: 351px) and (max-width: 550px) {
 
  
+  .container {
+    display: flex;
+  }
   
   .nabar {
     margin-top: 4px;
@@ -506,6 +515,10 @@
 @media (min-width: 551px) and (max-width: 750px) {
 
  
+  .container {
+    display: flex;
+    
+  }
   
   .nabar {
     margin-top: 4px;
@@ -549,7 +562,7 @@
  }
 
  .dishname {
-  font-size: small;
+  font-size: medium;
  }
 
 }
