@@ -417,7 +417,8 @@
   .pcimg {
     margin-left: 96px;
     width: 150px;
-    height: 100px;
+    height: 75px;
+    margin-top: 10px;
   }
 
 
