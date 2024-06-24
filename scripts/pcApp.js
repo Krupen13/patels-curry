@@ -18,7 +18,7 @@ items.forEach((item) => {
 
       <img class="w-full h-full" src="${item.image}">
     
-      <h2 class="ml-2 text-xl dishname">${item.name}&nbsp;€${currencyRound(item.price)}</h2>
+      <h2 class="ml-2 text-xl dishname">${item.name}<br>€${currencyRound(item.price)}</h2>
       
       <p  class="float-right -mt-7">
         <button data-item-name="${item.name}" data-item-id="${item.id}" class="w-10  js-add-to-cart h-8 pl-2 pr-2 mr-2 text-lg font-extrabold text-black bg-green-300 border-2 border-white rounded-md shadow-2xl cart  active:bg-red-300 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-rose-600 hover:text-white hover:scale-110 hover:border-green-600">+<div class="tooltip">Add to cart</div></button>
