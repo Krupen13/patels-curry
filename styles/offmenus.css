@@ -32,6 +32,7 @@
 .front {
   background-image: url("../assets/icecream.png");
   background-repeat: no-repeat;
+  display: flex;
 }
 
 
@@ -451,7 +452,58 @@
  }
 }
 
-@media (min-width: 351px) and (max-width: 750px) {
+@media (min-width: 351px) and (max-width: 550px) {
+
+ 
+  
+  .nabar {
+    margin-top: 4px;
+    font-size: xx-small;
+    margin-right: 4px;
+    width:100%;
+  }
+
+  .pcimg {
+    margin-left: 135px;
+    width: 150px;
+    height: 75px;
+    margin-top: 10px;
+  }
+
+
+  .starter {
+    
+    grid-template-columns: 1fr;
+  }
+
+  .dishtext {
+    font-size: medium;
+    font-weight: 400;
+  }
+
+  .mainco {
+    grid-template-columns: 1fr;
+  }
+
+  .bevrage {
+    grid-template-columns: 1fr;
+  }
+
+  .desert {
+    grid-template-columns: 1fr;
+  }
+  .starter, .bevrage, .mainco, .desert {
+  font-size: xx-small;
+  text-wrap: wrap;
+ }
+
+ .dishname {
+  font-size: small;
+ }
+
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
 
  
   
