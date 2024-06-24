@@ -51,10 +51,51 @@
 
 @media (min-width: 351px) and (max-width: 750px) {
   
-  .nabar {
-    font-size: small;
+  .vitalimg {
+    display: flex;
+    justify-items: center;
+    margin-top: -350px;
+    width: 70%;
+    
   }
 
+  .yc {
+    margin-left: 4px;
+  }
+
+  .catim {
+    grid-template-columns: 1fr;
+  }
+
+  .loc {
+    margin-left: 24px;
+  }
+
+  .firi {
+    
+    margin-top: -90px;
+      margin-bottom: 24px;
+        height: 170px;
+        width: 250px;
+    
+  } .seci {
+      margin-bottom: 24px;
+        height: 170px;
+        width: 250px;
+        margin-left: 250px;
+    }
+   .thii {
+    margin-bottom: 24px;
+      height: 170px;
+      width: 250px;
+  }
+
+  .nabar {
+    margin-top: 4px;
+    font-size: small;
+    margin-right: 4px;
+    width:100%;
+  }
   
 
 }
@@ -62,10 +103,55 @@
 @media (min-width: 751px) and (max-width: 999px) {
 
 
-  .nabar {
-    font-size: medium;
+  .vitalimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -350px;
+    width: 100%;
+    
   }
 
+  .yc {
+    margin-left: 140px;
+    
+  }
+
+  .catim {
+    grid-template-columns: 1fr;
+  }
+
+  .loc {
+    margin-left: 270px;
+  }
+
+  .firi {
+    
+    margin-top: -70px;
+      margin-bottom: 24px;
+        height: 170px;
+        width: 250px;
+        
+    
+  } .seci {
+      margin-bottom: 24px;
+        height: 170px;
+        width: 250px;
+        margin-left: 400px;
+    }
+   .thii {
+    margin-bottom: 24px;
+      height: 170px;
+      width: 250px;
+      
+  }
+
+  .nabar {
+    margin-top: 4px;
+    font-size: medium;
+    margin-right: 4px;
+    width:100%;
+  }
  
 
 }
