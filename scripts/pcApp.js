@@ -11,17 +11,17 @@ items.forEach((item) => {
 
   itemsHTML += `
   <div class="pr-10 flex justify-center items-center">
-  <div class="container  mb-8 mr-2 duration-1000 ease-in-out hover:scale-110">
+  <div class="container mt-8 mb-8 mr-2 duration-1000 ease-in-out hover:scale-110">
   <div class=" card">
     
     <div class="frontptd ">
 
       <img class="w-full h-full" src="${item.image}">
     
-      <h2 class="ml-2 text-xl dishname">${item.name}<br>€${currencyRound(item.price)}</h2>
+      <h2 class="ml-2 text-green-600 font-medium -mb-5 text-xl dishname">${item.name}<br><span class="text-red-600 font-semibold">€${currencyRound(item.price)} </span> </h2>
       
       <p  class="float-right -mt-7">
-        <button data-item-name="${item.name}" data-item-id="${item.id}" class="w-10  js-add-to-cart h-8 pl-2 pr-2 mr-2 text-lg font-extrabold text-black bg-green-300 border-2 border-white rounded-md shadow-2xl cart  active:bg-red-300 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-rose-600 hover:text-white hover:scale-110 hover:border-green-600">+<div class="tooltip">Add to cart</div></button>
+        <button data-item-name="${item.name}" data-item-id="${item.id}" class="w-12  js-add-to-cart h-12  pl-2 pb-2 pr-2 mr-2 text-5xl font-extrabold text-black bg-green-300 border-2 border-white rounded-md shadow-2xl cart  active:bg-red-300 active:text-slate-950 visited:bg-black visited:text-bg-400 hover:bg-rose-600 hover:text-white hover:scale-110 hover:border-green-600">+<div class="tooltip">Add to cart</div></button>
 
         
         
