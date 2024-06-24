@@ -1,6 +1,7 @@
 .body {
   display:grid;
-  
+  justify-content: center;
+  align-items: center;
 }
 
 .container{
@@ -424,7 +425,7 @@
   }
 
   .pcimg {
-    margin-left: 100px;
+    
     width: 130px;
     height: 85px;
     margin-top: 10px;
@@ -474,14 +475,14 @@
   .nabar {
     margin-top: 4px;
     font-size: xx-small;
-    margin-right: 4px;
+    margin-right: 0px;
     width:100%;
   }
 
   .pcimg {
-    
-    width: 150px;
-    height: 75px;
+   
+    width: 130px;
+    height: 85px;
     margin-top: 10px;
   }
 
@@ -538,9 +539,9 @@
   }
 
   .pcimg {
-    margin-left: 135px;
-    width: 150px;
-    height: 75px;
+    
+    width: 130px;
+    height: 85px;
     margin-top: 10px;
   }
 
@@ -597,9 +598,10 @@
   }
 
   .pcimg {
-    margin-left: 335px;
-    width: 150px;
-    height: 150px;
+    
+    width: 130px;
+    height: 85px;
+    margin-top: 30px;
   }
   
   .dishtext {
@@ -652,9 +654,11 @@
     height: 75px;
   }
 
-  .dishtext {
-    font-size: large;
-    font-weight: 400;
+  .pcimg {
+   
+    width: 130px;
+    height: 85px;
+    margin-top: 25px;
   }
 
   .starter {
