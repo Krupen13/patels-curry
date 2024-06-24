@@ -467,6 +467,8 @@
  
   .container {
     display: flex;
+    width:fit-content;
+    height: 250px;
   }
   
   .nabar {
@@ -477,7 +479,7 @@
   }
 
   .pcimg {
-    margin-left: 135px;
+    
     width: 150px;
     height: 75px;
     margin-top: 10px;
@@ -574,8 +576,12 @@
   
  }
 
- .st, .mc, .bevr, .desmukh {
+ .st, .bevr, .desmukh {
   font-size: x-large;
+ }
+
+ .mc {
+  margin-right: 10px;
  }
 
 }
