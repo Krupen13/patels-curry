@@ -10,8 +10,8 @@ let itemsHTML = '';
 items.forEach((item) => {
 
   itemsHTML += `
-  <div class="pr-10 justify-center items-center">
-  <div class="container  mb-8 mr-16 duration-1000 ease-in-out hover:scale-110">
+  <div class="pr-10 flex justify-center items-center">
+  <div class="container  mb-8 mr-2 duration-1000 ease-in-out hover:scale-110">
   <div class=" card">
     
     <div class="frontptd ">
