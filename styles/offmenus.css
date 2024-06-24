@@ -1,6 +1,6 @@
 .body {
   display:grid;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -10,7 +10,7 @@
   
   perspective: 500px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
   
@@ -480,10 +480,11 @@
   }
 
   .pcimg {
-   
+   display: grid;
+   justify-content: space-around;
     width: 130px;
     height: 85px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
 
