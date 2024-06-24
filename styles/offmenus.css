@@ -396,6 +396,18 @@
 }
 
 @media (max-width: 350px) {
+
+  .nabar {
+    font-size: xx-small;
+  }
+
+  .pcimg {
+    margin-left: 96px;
+    width: 150px;
+    height: 150px;
+  }
+
+
   .starter {
     grid-template-columns: 1fr;
   }
@@ -420,6 +432,17 @@
 
 @media (min-width: 351px) and (max-width: 750px) {
   
+  .nabar {
+    font-size: small;
+  }
+
+  .pcimg {
+    margin-left: 235px;
+    width: 150px;
+    height: 150px;
+  }
+
+
   .starter {
     
     grid-template-columns: 1fr 1fr;
@@ -449,6 +472,17 @@
 }
 
 @media (min-width: 751px) and (max-width: 999px) {
+
+
+  .nabar {
+    font-size: medium;
+  }
+
+  .pcimg {
+    margin-left: 335px;
+    width: 150px;
+    height: 150px;
+  }
   
   .dishtext {
     font-size: medium;
@@ -478,6 +512,16 @@
 }
 
 @media (min-width: 1000px) {
+
+  .nabar {
+    font-size: small;
+  }
+
+  .pcimg {
+    margin-left: 435px;
+    width: 150px;
+    height: 150px;
+  }
 
   .dishtext {
     font-size: large;
