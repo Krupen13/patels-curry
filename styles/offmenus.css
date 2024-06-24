@@ -10,6 +10,7 @@
   margin-right: 30%;
   margin-left: 10%;
   perspective: 500px;
+  justify-items: stretch;
   
 }
 .cater{
@@ -398,7 +399,9 @@
 @media (max-width: 350px) {
 
   
-
+  .container {
+    justify-items: stretch;
+  }
   
 
   .dishcon {
@@ -488,9 +491,13 @@
   .desert {
     grid-template-columns: 1fr 1fr;
   }
- .dishname, .starter, .bevrage, .mainco, .desert {
-  font-size: small;
+  .starter, .bevrage, .mainco, .desert {
+  font-size: xx-small;
   text-wrap: wrap;
+ }
+
+ .dishname {
+  font-size: small;
  }
 
 }
@@ -531,9 +538,13 @@
   .desert {
     grid-template-columns: 1fr 1fr 1fr;
   }
- .dishname, .starter, .bevrage, .mainco, .desert {
+  .starter, .bevrage, .mainco, .desert {
   font-size: medium;
   text-wrap: wrap;
+ }
+
+ .dishname {
+  font-size: medium;
  }
 
 }
