@@ -397,8 +397,21 @@
 
 @media (max-width: 350px) {
 
+  .dishcon {
+    width: 80%;
+    margin-right: 2px;
+  }
+
+  .dishtext {
+    font-size: medium;
+    font-weight: 400;
+  }
+
   .nabar {
+    margin-top: 4px;
     font-size: xx-small;
+    margin-right: 4px;
+    width:90%;
   }
 
   .pcimg {
@@ -449,7 +462,7 @@
   }
 
   .dishtext {
-    font-size: x-small;
+    font-size: medium;
     font-weight: 400;
   }
 
