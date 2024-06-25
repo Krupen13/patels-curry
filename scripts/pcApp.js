@@ -10,7 +10,7 @@ let itemsHTML = '';
 items.forEach((item) => {
 
   itemsHTML += `
-  <div class="pr-10 ">
+  <div class="pr-14 ">
   <div class="container mt-8 mb-8 mr-2 duration-1000 ease-in-out hover:scale-110">
   <div class=" card">
     
